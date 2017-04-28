@@ -1,6 +1,6 @@
 public class Palindrome{
 	public static void main(String[] args){
-		String str = "tacocat";
+		String str = args[0];
 		String str2 = "";
 
 		//idea #1: reverse it and save it in different variable, 
